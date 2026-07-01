@@ -73,8 +73,15 @@ export default function Contact() {
             <div className="space-y-4 font-mono text-xs uppercase tracking-wider text-ink">
               <div className="border border-ink p-4 bg-paper flex flex-col gap-1.5 hover:shadow-hard transition-all duration-200">
                 <span className="text-neutral-500 font-bold">EMAIL INBOX:</span>
-                <a href="mailto:hello@buildwithus.com" className="hover:text-editorial-red underline decoration-wavy underline-offset-4 font-bold text-sm">
-                  hello@buildwithus.com
+                <a href="mailto:magnet.solutionsph@gmail.com" className="hover:text-editorial-red underline decoration-wavy underline-offset-4 font-bold text-sm">
+                  magnet.solutionsph@gmail.com
+                </a>
+              </div>
+
+              <div className="border border-ink p-4 bg-paper flex flex-col gap-1.5 hover:shadow-hard transition-all duration-200">
+                <span className="text-neutral-500 font-bold">CONTACT NUMBER:</span>
+                <a href="tel:09941006573" className="hover:text-editorial-red underline decoration-wavy underline-offset-4 font-bold text-sm">
+                  0994 100 6573
                 </a>
               </div>
               
@@ -104,7 +111,7 @@ export default function Contact() {
             </span>
             <div className="flex gap-2">
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/profile.php?id=61591696464731"
                 target="_blank"
                 rel="noreferrer"
                 className="w-10 h-10 border border-ink flex items-center justify-center bg-paper hover:bg-editorial-pink hover:text-ink transition-all shadow-hard-sm"
