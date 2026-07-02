@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Helmet } from 'react-helmet-async';
-import { Send, CheckCircle2, Facebook, Github, Linkedin, AlertCircle, Instagram, Threads } from 'lucide-react';
+import { Send, CheckCircle2, Facebook, Github, Linkedin, AlertCircle, Instagram } from 'lucide-react';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -142,7 +142,13 @@ export default function Contact() {
                   className="w-10 h-10 border border-ink flex items-center justify-center bg-paper hover:bg-editorial-green hover:text-ink transition-all shadow-hard-sm"
                   aria-label="Threads Profile"
                 >
-                  <Threads className="h-4.5 w-4.5" />
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    className="h-4.5 w-4.5"
+                  >
+                    <path d="M22.88 11.23c-.15-1.89-1.22-3.83-2.58-4.93A11.7 11.7 0 0 0 12.18 3c-3.1 0-6.13 1.15-8.1 3.12A10.12 10.12 0 0 0 1.05 13.4a9.7 9.7 0 0 0 3.2 6.55c2 1.83 4.9 2.87 7.9 2.87a12.3 12.3 0 0 0 8-2.65l-1.35-1.4a10.42 10.42 0 0 1-6.65 2.15 8.76 8.76 0 0 1-7.95-8.3c-.05-2.25 1-4.75 2.95-6.55A8.53 8.53 0 0 1 12.18 5a9.8 9.8 0 0 1 6.8 2.65c1.1 1 2 2.7 2 4.15 0 2.25-1.5 3.3-3.05 3.3-.85 0-1.6-.35-1.95-1a3.6 3.6 0 0 1-3.25 1.55c-1.85 0-3.35-1.45-3.35-3.65v-.1c0-2.2 1.5-3.65 3.35-3.65a3.6 3.6 0 0 1 3.1 1.5c.05-.2.1-.35.15-.45h1.8v5.8c0 1.25.7 1.8 1.45 1.8 1.15 0 2.25-1.15 2.25-3.35v-.02zm-8.8-1.58c0-.9-.65-1.6-1.4-1.6s-1.4.7-1.4 1.6v.1c0 .9.65 1.6 1.4 1.6s1.4-.7 1.4-1.6v-.1z" />
+                  </svg>
                 </a>
                 <a
                   href="https://github.com"
