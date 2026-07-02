@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Helmet } from 'react-helmet-async';
-import { Send, CheckCircle2, Facebook, Github, Linkedin, AlertCircle } from 'lucide-react';
+import { Send, CheckCircle2, Facebook, Github, Linkedin, AlertCircle, Instagram, Threads } from 'lucide-react';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -125,6 +125,24 @@ export default function Contact() {
                   aria-label="Facebook Profile"
                 >
                   <Facebook className="h-4.5 w-4.5" />
+                </a>
+                <a
+                  href="https://www.instagram.com/magnet.solutionsph/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="w-10 h-10 border border-ink flex items-center justify-center bg-paper hover:bg-editorial-red hover:text-paper hover:border-ink transition-all shadow-hard-sm"
+                  aria-label="Instagram Profile"
+                >
+                  <Instagram className="h-4.5 w-4.5" />
+                </a>
+                <a
+                  href="https://www.threads.net/@magnet.solutionsph"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="w-10 h-10 border border-ink flex items-center justify-center bg-paper hover:bg-editorial-green hover:text-ink transition-all shadow-hard-sm"
+                  aria-label="Threads Profile"
+                >
+                  <Threads className="h-4.5 w-4.5" />
                 </a>
                 <a
                   href="https://github.com"
