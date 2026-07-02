@@ -9,7 +9,7 @@ export default function Testimonials() {
       name: 'Marites Calo',
       business: 'Butuan Coffee Grind',
       rating: 5,
-      text: 'BuildWithUs constructed our online ordering portal in under two weeks. Our mobile orders increased by 40% immediately. They explain technical terms in plain English which made working with them an absolute breeze!',
+      text: 'MagNet Solutions constructed our online ordering portal in under two weeks. Our mobile orders increased by 40% immediately. They explain technical terms in plain English which made working with them an absolute breeze!',
       avatarBg: 'bg-editorial-pink',
       letter: 'M'
     },

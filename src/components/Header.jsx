@@ -73,7 +73,7 @@ export default function Header() {
         {/* Main Nameplate (Masthead) */}
         <div className="max-w-screen-xl mx-auto px-4 py-6 text-center border-b border-ink md:py-8">
           <h1 className="font-serif font-black text-4xl sm:text-6xl md:text-7xl lg:text-8xl tracking-tight select-none">
-            THE BUILDWITHUS GLOBE
+            THE MagNET SOLUTIONS GLOBE
           </h1>
           <p className="font-serif italic text-sm md:text-base mt-2 text-neutral-600">
             "Your customers are always online. Your business should be too."

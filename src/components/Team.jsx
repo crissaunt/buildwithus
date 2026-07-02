@@ -15,7 +15,7 @@ const members = [
     photo: christianImg,
     github: 'https://github.com',
     linkedin: 'https://linkedin.com',
-    email: 'mailto:christian@buildwithus.dev',
+    email: 'mailto:christian@magnetsolutions.dev',
   },
   {
     name: 'June Dominic Laurente',
@@ -25,7 +25,7 @@ const members = [
     photo: juneImg,
     github: 'https://github.com',
     linkedin: 'https://linkedin.com',
-    email: 'mailto:june@buildwithus.dev',
+    email: 'mailto:june@magnetsolutions.dev',
   },
   {
     name: 'Florence Cris Solayao',
@@ -35,7 +35,7 @@ const members = [
     photo: florenceImg,
     github: 'https://github.com',
     linkedin: 'https://linkedin.com',
-    email: 'mailto:florence@buildwithus.dev',
+    email: 'mailto:florence@magnetsolutions.dev',
   },
   {
     name: 'John Rey Siman',
@@ -45,7 +45,7 @@ const members = [
     photo: null,
     github: 'https://github.com',
     linkedin: 'https://linkedin.com',
-    email: 'mailto:johnrey@buildwithus.dev',
+    email: 'mailto:johnrey@magnetsolutions.dev',
   },
 ];
 

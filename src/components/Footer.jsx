@@ -13,7 +13,7 @@ export default function Footer() {
         {/* Large Centered Logo Wordmark */}
         <div className="text-center pb-8 border-b border-ink">
           <h2 className="font-serif font-black text-3xl sm:text-5xl md:text-6xl uppercase tracking-tighter text-ink select-none">
-            THE BUILDWITHUS GLOBE
+            THE MagNET SOLUTIONS GLOBE
           </h2>
           <p className="font-mono text-[10px] sm:text-xs tracking-widest text-neutral-500 uppercase mt-2">
             VOLUME 1.0 // EDITION NO. 4 // MAGALLANES, AGUSAN DEL NORTE, CARAGA, PHILIPPINES
@@ -28,7 +28,7 @@ export default function Footer() {
               PUBLICATION STATEMENT
             </h4>
             <p className="font-body text-xs md:text-sm text-neutral-600 leading-relaxed text-justify-columns">
-              BuildWithUs operates as a dedicated four-person web engineering agency based in Magallanes, Agusan del Norte, Caraga, Philippines. We reject complex, proprietary CMS systems and generic templates in favor of direct code ownership, clean search engine optimization, and robust visual design structures.
+              MagNet Solutions operates as a dedicated four-person web engineering agency based in Magallanes, Agusan del Norte, Caraga, Philippines. We reject complex, proprietary CMS systems and generic templates in favor of direct code ownership, clean search engine optimization, and robust visual design structures.
             </p>
           </div>
 
@@ -66,7 +66,7 @@ export default function Footer() {
         {/* Bottom Credits and scroll up */}
         <div className="pt-8 flex flex-col sm:flex-row justify-between items-center text-xs font-mono tracking-widest text-neutral-600 gap-4">
           <div>
-            &copy; {new Date().getFullYear()} BUILDWITHUS GLOBE. ALL RIGHTS EXPLICITLY CODED.
+            &copy; {new Date().getFullYear()} MagNET SOLUTIONS GLOBE. ALL RIGHTS EXPLICITLY CODED.
           </div>
           
           <div className="flex items-center gap-6">
